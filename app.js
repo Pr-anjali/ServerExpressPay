@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 app.use(cors({
   origin:  [
-    "http://localhost:3000",
+    "http://localhost:3000", "https://main--stirring-toffee-45dd65.netlify.app/"
   ],// Replace with the origin of your frontend
   credentials: true,
 }));
